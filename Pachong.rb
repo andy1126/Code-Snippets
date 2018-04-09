@@ -22,7 +22,7 @@ end
 prefix = "https://api.douban.com/v2/book/12"
 target = open("list.txt", 'w')
 
-(100 ... 120).each do |n|
+(100 ... 130).each do |n|
 	num = n.to_s.rjust(5, '0')
 	url = prefix + num
 	puts url
